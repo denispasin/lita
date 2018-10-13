@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "ice_nine", "~> 0.11.2"
   spec.add_runtime_dependency "lita-default-handlers", "~> 0.1.0"
   spec.add_runtime_dependency "puma", "~> 3.11.2"
-  spec.add_runtime_dependency "rack", "~> 2.0.4"
+  spec.add_runtime_dependency "rack", ">= 2.0.4"
   spec.add_runtime_dependency "rb-readline", "~> 0.5.5"
   spec.add_runtime_dependency "redis-namespace", "~> 1.6.0"
   spec.add_runtime_dependency "thor", "~> 0.19.4"
